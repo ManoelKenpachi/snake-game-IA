@@ -1,0 +1,27 @@
+body {
+    display: flex;
+    justify-content: space-around; /* Ajusta os elementos no centro da tela */
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+  }
+  
+  canvas {
+    border: 2px solid #000;
+  }
+  
+  /* Estilo da tabela Q */
+  #qTableDisplay {
+    width: 400px; /* Define uma largura fixa para a tabela Q */
+    height: 400px; /* Define uma altura fixa para a tabela Q */
+    overflow-y: scroll; /* Adiciona rolagem vertical quando o conteúdo exceder */
+    border: 1px solid #000;
+    padding: 10px;
+    background-color: #fff;
+    font-size: 12px;
+    white-space: pre-wrap; /* Mantém a formatação do texto */
+    word-wrap: break-word; /* Quebra o texto longo */
+  }
+  
